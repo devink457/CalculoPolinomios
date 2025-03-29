@@ -34,7 +34,7 @@ function product = product_polynomial(p, q)
 end
 
 p = [1 -6 11 -6]; % x^3 - 6x^2 + 11x - 6
-q = [1];       % x - 1
+q = [1 -1];       % x - 1
 
 [p_norm, q_norm] = normalize_polynomials(p, q)
 
